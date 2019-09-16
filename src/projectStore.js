@@ -30,7 +30,7 @@ const projects = [
                 'https://github.com/wades1248/Out-There/blob/master/Screenshot%202019-04-16%20at%207.50.52%20PM.png?raw=true'
             ]
         },
-        description: 'Out There allows users to get currnet weather conditions as well as floura and fauna sightings based on their current position or a city entered as a query.',
+        description: 'Out There allows users to get current weather conditions as well as flora and fauna sightings based on their current position or a city entered as a query.',
         links: {
             live: 'https://wades1248.github.io/Out-There/',
             repo: 'https://github.com/wades1248/Out-There'
