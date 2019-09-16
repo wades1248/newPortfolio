@@ -11,13 +11,16 @@ ul {
   height: 200px;
   width: auto;
 }
+.bio img{
+  margin-top: 0px;
+}
 img{
   display: block;
   margin-top: 60px;
   max-height: 200px;
   width: auto;
 }
-li{
+li, .bioInfo{
   margin-left: 0%;
   display: flex;
   justify-content: space-between;
@@ -123,7 +126,7 @@ p{
   margin-right: auto;
 }
 @media screen and (max-width: 768px){
-  .projects li{
+  .projects li, .bioInfo{
     flex-direction: column;
   }
   .hero{
@@ -133,5 +136,22 @@ p{
   .heading h2{
     font-size: 100%;
     padding: 10%;
+  }
+  .image{
+    max-width: 175px;
+    align-self: center;
+    margin-left: 0px;
+  }
+  .bio img, .bio .image{
+    margin-left: 25%;
+  }
+  img{
+    max-width: 275px;
+    margin-left: 0px;
+
+  }
+  .content{
+    margin-left: 5px;
+    margin-right: 5px;
   }
 }
