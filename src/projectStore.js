@@ -31,6 +31,7 @@ const projects = [
             ]
         },
         description: 'Out There allows users to get current weather conditions as well as flora and fauna sightings based on their current position or a city entered as a query.',
+        tech: 'HTML5, CSS, JavaScript',
         links: {
             live: 'https://wades1248.github.io/Out-There/',
             repo: 'https://github.com/wades1248/Out-There'
@@ -48,6 +49,7 @@ const projects = [
             ]
         },
         description: 'DM DB is an encouter generator and initiative tracker for Dungeons and Dragons 5th edition. Users may enter and save player information using a "DM ID". Player information is used to create random encounters based upon difficulty, environment, and number of creautures. Users may also track initiative (turn order) with the Initiative tracker. This tracker can be used with or without a generated encounter.',
+        tech: 'HTML5, CSS, Javascript, REACT, Node.js, PostgreSQL',
         links: {
             live: 'https://dm-db.now.sh/',
             repo: 'https://github.com/wades1248/DM-DB'
