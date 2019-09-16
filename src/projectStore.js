@@ -48,7 +48,7 @@ const projects = [
                 'https://github.com/wades1248/DM-DB/raw/master/Screen%20Shot%202019-07-30%20at%208.53.55%20PM.png?raw=true'
             ]
         },
-        description: 'DM DB is an encouter generator and initiative tracker for Dungeons and Dragons 5th edition. Users may enter and save player information using a "DM ID". Player information is used to create random encounters based upon difficulty, environment, and number of creatures. Users may also track initiative (turn order) with the Initiative tracker. This tracker can be used with or without a generated encounter.',
+        description: 'DM DB is an encounter generator and initiative tracker for Dungeons and Dragons 5th edition. Users may enter and save player information using a "DM ID". Player information is used to create random encounters based upon difficulty, environment, and number of creatures. Users may also track initiative (turn order) with the Initiative tracker. This tracker can be used with or without a generated encounter.',
         tech: 'HTML5, CSS, Javascript, REACT, Node.js, PostgreSQL',
         links: {
             live: 'https://dm-db.now.sh/',
