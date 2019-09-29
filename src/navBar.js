@@ -5,7 +5,6 @@ class NavBar extends Component{
         active: false
     }
     activate = event=> {
-        event.preventDefault()
         if(this.state.active === true){
             this.setState({active: false})
         }else{
@@ -13,13 +12,13 @@ class NavBar extends Component{
         }
     }
     render(){
-        function showMenu(state){
+        function showMenu(state, activate){
             if(state.active === true){
                 return(
                     <div className="menu">
-                        <a href='#bio'>About</a><br></br>
-                        <a href='#projects'>Projects</a><br></br>
-                        <a href='#contact'>Contact</a><br></br>
+                        <a href='#bio' onClick={activate}>About</a><br></br>
+                        <a href='#projects' onClick={activate}>Projects</a><br></br>
+                        <a href='#contact' onClick={activate}>Contact</a><br></br>
                     </div>
                 )
             }else{
@@ -37,7 +36,7 @@ class NavBar extends Component{
 				        <span></span>
                     </div>
                 </div>
-                {showMenu(this.state)}
+                {showMenu(this.state, this.activate)}
             </div>
         )
     }
