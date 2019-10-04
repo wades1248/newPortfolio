@@ -92,6 +92,7 @@ p{
   border-radius: 50%;
 }
 .content{
+  max-width: 1366px;
   margin-left: 15%;
   margin-right: 15%;
 }
