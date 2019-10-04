@@ -10,7 +10,7 @@ class MyProjects extends Component {
         }
         function Display(item){
             return(
-                <li key={item.key}>
+                <li key={item.key} className='project'>
                     <div>
                         <h2>{item.title}</h2>
                         <p>{item.description}</p>
@@ -21,7 +21,13 @@ class MyProjects extends Component {
                         <a href={item.links.repo} target='blank'>GitHub Repo</a>
                     </div>
                     <div className='image'>
+                        <img src={item.images.images[0]} alt={item.images.alt}/>
+                    </div>
+                    <div className='image extra'>
                         <img src={item.images.images[1]} alt={item.images.alt}/>
+                    </div >
+                    <div className ='imgae extra'>
+                        <img src={item.images.images[2]} alt={item.images.alt}/>
                     </div>
                 </li>
             )

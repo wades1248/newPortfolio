@@ -9,7 +9,7 @@ ul {
 }​
 .image{
   display: block;
-  height: 200px;
+  height: auto;
   width: auto;
 }
 .bio img{
@@ -122,6 +122,11 @@ p{
 }
 .projects li{
   display: flex;
+  flex-wrap: wrap;
+}
+.projects ul{
+  display: flex;
+  flex-direction: column-reverse;
 }
 .contact li{
   display: block;
@@ -176,5 +181,12 @@ p{
   }
   .title span{
     padding: 30%;
+  }
+  .projects li{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .extra{
+    display: none;
   }
 }
