@@ -11,6 +11,7 @@ ul {
   display: block;
   height: auto;
   width: auto;
+  
 }
 .bio img{
   margin-top: 0px;
@@ -18,8 +19,8 @@ ul {
 img{
   display: block;
   margin-top: 60px;
-  max-height: 200px;
-  width: auto;
+  height: auto;
+  max-width: 450px;
 }
 li, .bioInfo{
   margin-left: 0%;
@@ -92,9 +93,9 @@ p{
   border-radius: 50%;
 }
 .content{
-  max-width: 1366px;
-  margin-left: 15%;
-  margin-right: 15%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .title{
   display: flex;
