@@ -16,9 +16,9 @@ class NavBar extends Component{
             if(state.active === true){
                 return(
                     <div className="menu">
-                        <a href='#bio' onClick={activate}>About</a><br></br>
-                        <a href='#projects' onClick={activate}>Projects</a><br></br>
-                        <a href='#contact' onClick={activate}>Contact</a><br></br>
+                        <a href='#bio' onClick={activate}>About</a>
+                        <a href='#projects' onClick={activate}>Projects</a>
+                        <a href='#contact' onClick={activate}>Contact</a>
                     </div>
                 )
             }else{

@@ -28,6 +28,10 @@ li, .bioInfo{
   justify-content: space-between;
   max-width: 100%;
 }
+.menu a{
+  display: block;
+ margin-top: 10px;
+}
 .menu a, .menu a:visited, .menu a:active {
   color: white;
   text-decoration: none;
@@ -74,7 +78,7 @@ p{
 }
 .menu{
   display: block;
-  height: 100px;
+  height: auto;
   width: auto;
   font-size: 30px;
   background-color: rgb(60, 153, 159);
@@ -125,6 +129,7 @@ p{
 .projects li{
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 150px;
 }
 .projects ul{
   display: flex;
@@ -133,6 +138,9 @@ p{
 .contact li{
   display: block;
   margin-right: auto;
+}
+.contact{
+  margin-bottom: 80px;
 }
 @media screen and (max-width: 768px){
   .heading, .hero{
@@ -146,6 +154,9 @@ p{
   }
   .projects li, .bioInfo{
     flex-direction: column;
+  }
+  .projects li{
+    margin-bottom: 40px;
   }
   .hero{
     font-size: 300%;
