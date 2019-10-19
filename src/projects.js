@@ -10,8 +10,8 @@ class MyProjects extends Component {
         }
         function Display(item){
             return(
-                <li key={item.key} className='project'>
-                    <div>
+                <li key={item.key} className={item.title}>
+                    <div className='project'>
                         <h2>{item.title}</h2>
                         <p>{item.description}</p>
                         <h3>Technologies:</h3>
