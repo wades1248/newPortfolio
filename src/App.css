@@ -17,12 +17,15 @@ ul {
 }​
 .image{
   display: block;
+  align-items: center;
   height: auto;
   width: auto;
+  margin-top: 60px;
   
 }
 .bio img{
   margin-top: 0px;
+  height: 100%;
 }
 img{
   display: block;
@@ -58,6 +61,7 @@ p{
   max-width: 400px;
   min-width: 275px;
   background-color: rgba(0, 0, 0, 0.413);
+  font-size: 130%;
 }
 .nav{
   display: flex;
