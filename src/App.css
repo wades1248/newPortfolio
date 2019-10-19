@@ -1,4 +1,12 @@
-
+html{
+  background-image: url(https://github.com/wades1248/newPortfolio/blob/master/Screen%20Shot%202019-10-18%20at%209.18.53%20PM.png?raw=true);
+  background-size: cover; 
+  color: white;
+  background-attachment: fixed;
+}
+body{
+  background-color: rgba(0, 0, 0, 0.454);
+}
 .title, h1, h2, h3{
   font-family: 'Source Code Pro', monospace;
 }
@@ -40,13 +48,16 @@ li, .bioInfo{
   text-shadow: 2px 2px rgb(240, 60, 153);
   color: white;
 }
+a{
+  color: white;
+}
 a:hover{
-  color: black;
+  color: rgb(240, 60, 153);
 }
 p{
   max-width: 400px;
   min-width: 275px;
-
+  background-color: rgba(0, 0, 0, 0.413);
 }
 .nav{
   display: flex;
@@ -90,7 +101,7 @@ p{
 }
 .title span{
   z-index: -1;
-  display: block;
+  display: none;
   padding: 20%;
   background-image: radial-gradient(white,rgb(60, 153, 159),rgb(240, 60, 153),white);
   position: absolute;
@@ -105,21 +116,24 @@ p{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; 
+  flex-direction: column;
+
   margin-top: 40px;
   height: 100vh;
   width: 100%;
-  text-shadow: 1px 3px white;
+  color: white;
+  text-shadow: 1px 3px black;
   text-align: center;
 }
+
 .hero{
   font-size: 800%;
 }
 .heading{
   display: flex;
   justify-content: space-between;
-  width: 30%;
-  font-size: 150%;
+  width: 50%;
+  font-size: 200%;
 
 }
 
@@ -140,7 +154,7 @@ p{
   margin-right: auto;
 }
 .contact{
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 @media screen and (max-width: 768px){
   .heading, .hero{
@@ -174,9 +188,7 @@ p{
    margin-left: 0%;
    margin-right: 0%;
   }
-  .bio img, .bio .image{
-    margin-left: 25%;
-  }
+  
   .contact .image, .contact img{
     margin-left: 0%;
   }
@@ -185,7 +197,7 @@ p{
     min-width: none;
     max-width: 275px;
     margin-left: auto;
-    margin-right: 10px;
+    margin-right: auto;
 
   }
   .content{
