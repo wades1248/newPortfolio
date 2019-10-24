@@ -42,6 +42,9 @@ img{
   height: auto;
   max-width: 450px;
 }
+.image p:hover, .image img:hover{
+  cursor: pointer;
+}
 li, .bioInfo{
   margin-left: 0%;
   display: flex;
