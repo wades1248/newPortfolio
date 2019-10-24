@@ -169,6 +169,20 @@ p{
 .contact{
   padding-bottom: 80px;
 }
+.logoBox{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.logoLink{
+  display: block;
+}
+.logoLink img{
+  display: block;
+  width: 75px;
+  margin-top: 20px;
+}
 @media screen and (max-width: 768px){
   .heading, .hero{
     flex-direction: column;

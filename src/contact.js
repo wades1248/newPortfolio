@@ -8,9 +8,11 @@ class Contact extends Component{
 					<ul>
 						<li key='1'>Phone: <a href="tel:+1-513-487-8064">513-487-8064</a></li>
 						<li key='2'>email: <a href="mailto:wades1248@gmail.com>wades1248@gmail.com" target='blank'>wades1248@gmail.com</a></li>
-						<li key='3'>github: <a href="https://github.com/wades1248" target="blank">https://github.com/wades1248</a></li>
-						<li key='4'>linkedin: <a href='https://www.linkedin.com/in/spencer-wade-a7914a185/'>https://www.linkedin.com/in/spencer-wade-a7914a185/</a></li>
 					</ul>
+					<div className="logoBox">
+						<a className="logoLink" href="https://github.com/wades1248" target="blank"><img alt="github logo" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"/></a>
+						<a className="logoLink" href='https://www.linkedin.com/in/spencer-wade-a7914a185/'><img alt= 'likned in logo' src='https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png'/></a>
+					</div>
 				</address>
 			</footer>
         )
