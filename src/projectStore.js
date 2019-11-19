@@ -24,9 +24,9 @@ const projects = [
         images: {
             alt: 'still from Out ther',
             images: [
-                'https://github.com/wades1248/Out-There/blob/master/Screenshot%202019-04-16%20at%207.49.57%20PM.png?raw=true',
-                'https://github.com/wades1248/Out-There/blob/master/Screenshot%202019-04-16%20at%207.50.13%20PM.png?raw=true',
-                'https://github.com/wades1248/Out-There/blob/master/Screenshot%202019-04-16%20at%207.50.52%20PM.png?raw=true'
+                'https://github.com/wades1248/Out-There/raw/master/Screen%20Shot%202019-11-18%20at%207.23.57%20PM.png?raw=true',
+                'https://github.com/wades1248/Out-There/raw/master/Screen%20Shot%202019-11-18%20at%207.18.37%20PM.png?raw=true',
+                'https://github.com/wades1248/Out-There/raw/master/Screen%20Shot%202019-11-18%20at%207.19.03%20PM.png?raw=true'
             ]
         },
         description: 'Out There allows users to get current weather conditions as well as flora and fauna sightings based on their current position or a city entered as a query.',
